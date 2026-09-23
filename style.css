@@ -1,4 +1,6 @@
-/* ---------- GLOBAL ---------- */
+/* ==============================
+   GAITMATE DESIGN SYSTEM
+   ============================== */
 
 * {
   box-sizing: border-box;
@@ -11,8 +13,8 @@ html {
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  color: #1f2933;
-  background: red;
+  color: #14212b;
+  background: #ffffff;
   line-height: 1.6;
 }
 
@@ -21,174 +23,295 @@ a {
 }
 
 
-/* ---------- NAVIGATION ---------- */
+/* ==============================
+   NAVIGATION
+   ============================== */
 
 nav {
-  padding: 20px 8%;
+  min-height: 76px;
+  padding: 0 7%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #e8e8e8;
-  background: white;
+
+  background: rgba(255, 255, 255, 0.96);
+  border-bottom: 1px solid #e7edef;
 }
 
 .logo {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: #087f8c;
   text-decoration: none;
 }
 
 .nav-links {
   display: flex;
-  gap: 28px;
+  gap: 30px;
 }
 
 .nav-links a {
+  font-size: 14px;
+  font-weight: 600;
   text-decoration: none;
-  font-size: 15px;
+  color: #344955;
+  transition: 0.2s;
 }
 
 .nav-links a:hover {
-  opacity: 0.6;
+  color: #087f8c;
 }
 
 
-/* ---------- HERO ---------- */
+/* ==============================
+   HOMEPAGE HERO
+   ============================== */
 
 .hero {
-  min-height: 75vh;
+  min-height: 82vh;
+
   display: flex;
   align-items: center;
-  padding: 80px 10%;
+
+  padding: 100px 10%;
+
+  background:
+    radial-gradient(
+      circle at 85% 30%,
+      #dff5f3 0%,
+      transparent 35%
+    ),
+    linear-gradient(
+      135deg,
+      #f7fbfb 0%,
+      #ffffff 60%
+    );
 }
 
 .hero-content {
-  max-width: 800px;
+  max-width: 850px;
 }
 
 .hero h1 {
-  font-size: clamp(52px, 8vw, 88px);
-  line-height: 1;
   margin: 0 0 20px;
+
+  font-size: clamp(65px, 9vw, 110px);
+  line-height: 0.95;
+  letter-spacing: -4px;
+
+  color: #087f8c;
 }
 
 .hero h2 {
-  font-size: clamp(24px, 3vw, 34px);
-  font-weight: 400;
-  margin-bottom: 25px;
+  max-width: 750px;
+
+  margin: 0 0 25px;
+
+  font-size: clamp(27px, 3.5vw, 42px);
+  line-height: 1.2;
+  font-weight: 500;
+
+  color: #14212b;
 }
 
 .hero p {
+  max-width: 670px;
+
   font-size: 18px;
-  max-width: 700px;
+  line-height: 1.75;
+
+  color: #50636d;
 }
 
 
-/* ---------- BUTTONS ---------- */
+/* ==============================
+   BUTTONS
+   ============================== */
 
 .button {
   display: inline-block;
-  margin-top: 20px;
-  padding: 13px 22px;
-  background: #1f2933;
+
+  margin-top: 22px;
+  padding: 14px 24px;
+
+  background: #087f8c;
   color: white;
+
+  font-size: 15px;
+  font-weight: 700;
+
   text-decoration: none;
-  border-radius: 6px;
+
+  border-radius: 8px;
+
   transition: 0.2s;
 }
 
 .button:hover {
+  background: #066873;
   transform: translateY(-2px);
 }
 
 
-/* ---------- STANDARD PAGES ---------- */
+/* ==============================
+   STANDARD WIKI PAGES
+   ============================== */
 
 .page {
-  max-width: 1000px;
+  max-width: 1100px;
+
   margin: 0 auto;
-  padding: 90px 30px;
+  padding: 100px 35px;
 }
 
 .page-header {
-  margin-bottom: 70px;
+  max-width: 800px;
+  margin-bottom: 90px;
 }
 
 .page-header h1 {
-  font-size: clamp(42px, 6vw, 64px);
-  margin-bottom: 15px;
+  margin: 0 0 20px;
+
+  font-size: clamp(48px, 6vw, 72px);
+  line-height: 1;
+
+  color: #087f8c;
 }
 
 .page-header p {
-  max-width: 700px;
-  font-size: 19px;
-  color: #5d6872;
+  max-width: 720px;
+
+  font-size: 20px;
+  line-height: 1.7;
+
+  color: #5a6c75;
 }
 
 
-/* ---------- CONTENT SECTIONS ---------- */
+/* ==============================
+   SECTIONS
+   ============================== */
 
 .section {
-  margin: 80px 0;
+  margin: 100px 0;
 }
 
 .section h2 {
-  font-size: 32px;
-  margin-bottom: 15px;
+  margin-bottom: 18px;
+
+  font-size: 34px;
+  line-height: 1.2;
+
+  color: #14212b;
 }
 
-.section p {
-  max-width: 750px;
+.section > p {
+  max-width: 780px;
+
   font-size: 17px;
+  line-height: 1.8;
+
+  color: #53666f;
 }
 
 
-/* ---------- CARDS ---------- */
+/* ==============================
+   TECHNOLOGY CARDS
+   ============================== */
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 24px;
-  margin-top: 35px;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(230px, 1fr));
+
+  gap: 25px;
+
+  margin-top: 40px;
 }
 
 .card {
-  border: 1px solid #e5e7eb;
-  border-radius: 10px;
-  padding: 28px;
+  padding: 32px;
+
+  background: #f6fbfb;
+
+  border: 1px solid #dcebea;
+  border-radius: 14px;
+
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+
+  box-shadow:
+    0 12px 30px rgba(0, 0, 0, 0.06);
 }
 
 .card h3 {
   margin-top: 0;
+  margin-bottom: 12px;
+
+  color: #087f8c;
+}
+
+.card p {
+  margin-bottom: 0;
+
+  color: #586b74;
 }
 
 
-/* ---------- FOOTER ---------- */
+/* ==============================
+   FOOTER
+   ============================== */
 
 footer {
-  border-top: 1px solid #e8e8e8;
-  padding: 40px 8%;
+  padding: 45px 8%;
+
+  background: #f7fafa;
+
+  border-top: 1px solid #e1e9eb;
+
+  color: #687b84;
+
   font-size: 14px;
-  color: #68737d;
 }
 
 
-/* ---------- MOBILE ---------- */
+/* ==============================
+   MOBILE
+   ============================== */
 
-@media (max-width: 750px) {
+@media (max-width: 760px) {
 
   nav {
+    padding: 20px 7%;
+
     align-items: flex-start;
     flex-direction: column;
+
     gap: 15px;
   }
 
   .nav-links {
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 14px 20px;
   }
 
   .hero {
-    padding: 70px 8%;
+    min-height: auto;
+
+    padding: 100px 8%;
   }
+
+  .hero h1 {
+    letter-spacing: -2px;
+  }
+
+  .page {
+    padding: 70px 25px;
+  }
+
 }
