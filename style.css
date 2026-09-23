@@ -550,3 +550,98 @@ footer {
   }
 
 }
+
+/* ==============================
+   TEAM PAGE
+   ============================== */
+
+.leadership-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-top: 35px;
+  max-width: 750px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+  margin-top: 40px;
+}
+
+.team-card {
+  padding: 28px;
+
+  background: #f6fbfb;
+
+  border: 1px solid #dcebea;
+  border-radius: 14px;
+}
+
+.team-initial {
+  width: 48px;
+  height: 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 22px;
+
+  background: #087f8c;
+  color: white;
+
+  border-radius: 50%;
+
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.team-card h3 {
+  margin: 0 0 8px;
+
+  font-size: 20px;
+}
+
+.team-role {
+  margin: 0 0 5px;
+
+  color: #087f8c;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.team-group {
+  margin: 0;
+
+  color: #687b84;
+
+  font-size: 14px;
+}
+
+.leadership-card {
+  background: white;
+  border: 2px solid #d4e9e8;
+}
+
+
+/* TEAM MOBILE */
+
+@media (max-width: 950px) {
+
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .leadership-grid,
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
