@@ -1,9 +1,12 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Explore GaitMate's gait research, clinical applications, prototype development, and future research directions.">
 
   <title>Research & Development | GaitMate</title>
 
@@ -12,570 +15,672 @@
 
 <body>
 
-<nav>
-  <a class="logo" href="index.html">GaitMate</a>
+  <!-- NAVIGATION -->
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Main navigation">
 
-  <div class="nav-links">
-    <a href="index.html">Home</a>
-    <a href="technology.html">Technology</a>
-    <a href="impact.html">Impact</a>
-    <a href="research-development.html">R&D</a>
-    <a href="outreach.html">Outreach</a>
-    <a href="team.html">Team</a>
-    <a href="contact.html">Contact</a>
-  </div>
-</nav>
+      <a class="brand" href="index.html">Gait<span>Mate</span></a>
 
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="technology.html">Technology</a>
+        <a href="research-development.html" aria-current="page">R&D</a>
+        <a href="outreach.html">Outreach</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Contact</a>
+      </div>
 
-<main class="page">
-
-  <!-- INTRODUCTION -->
-
-  <header class="page-header">
-
-    <div class="section-label">RESEARCH & DEVELOPMENT</div>
-
-    <h1>Building GaitMate.</h1>
-
-    <p>
-      GaitMate combines rehabilitation research, wearable sensing,
-      engineering design, and digital analysis to explore new ways
-      of understanding movement throughout recovery.
-    </p>
-
-    <p>
-      Follow the project from the clinical problem and initial concept
-      through prototype development, testing, and future validation.
-    </p>
-
+    </nav>
   </header>
 
 
-  <!-- CLINICAL MOTIVATION -->
+  <main>
 
-  <section class="section">
+    <!-- INTRODUCTION -->
+    <section class="page-intro wrap">
 
-    <div class="section-label">01 — CLINICAL MOTIVATION</div>
+      <p class="eyebrow">RESEARCH &amp; DEVELOPMENT</p>
 
-    <h2>Recovery extends beyond the clinic.</h2>
+      <h1>Understanding movement. Advancing rehabilitation.</h1>
 
-    <p>
-      Rehabilitation is often evaluated through periodic clinical
-      assessments, while much of a patient's recovery occurs between
-      appointments during everyday movement, exercise, and independent
-      rehabilitation.
-    </p>
-
-    <p>
-      GaitMate explores whether wearable sensing can provide additional
-      information about movement during these periods and help create a
-      more continuous picture of rehabilitation.
-    </p>
-
-  </section>
-
-
-  <!-- ANATOMY -->
-
-  <section class="section">
-
-    <div class="section-label">02 — ANKLE ANATOMY</div>
-
-    <h2>Starting with lateral ankle injuries.</h2>
-
-    <p>
-      GaitMate's initial research focuses on structures involved in
-      lateral ankle sprains. The early sensor concept investigates
-      localized sensing around three major lateral ankle ligaments.
-    </p>
-
-
-    <div class="card-grid">
-
-      <div class="card">
-
-        <h3>ATFL</h3>
-
-        <p>
-          Anterior talofibular ligament.
-        </p>
-
-      </div>
-
-
-      <div class="card">
-
-        <h3>CFL</h3>
-
-        <p>
-          Calcaneofibular ligament.
-        </p>
-
-      </div>
-
-
-      <div class="card">
-
-        <h3>PTFL</h3>
-
-        <p>
-          Posterior talofibular ligament.
-        </p>
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- RESEARCH QUESTION -->
-
-  <section class="research-question">
-
-    <div class="section-label">03 — RESEARCH QUESTION</div>
-
-    <h2>
-      Can wearable sensors help characterize localized mechanical
-      changes during ankle rehabilitation?
-    </h2>
-
-    <p>
-      This question guides the development of the GaitMate sensing
-      system, data-analysis approach, and digital interface.
-    </p>
-
-  </section>
-
-
-  <!-- DESIGN GOALS -->
-
-  <section class="section">
-
-    <div class="section-label">04 — DESIGN GOALS</div>
-
-    <h2>Turning a research question into a wearable system.</h2>
-
-    <p>
-      The design process considers both the technical requirements of
-      sensing and the practical requirements of a device intended to
-      operate during movement.
-    </p>
-
-
-    <div class="rd-goals">
-
-      <div>
-
-        <span>01</span>
-
-        <h3>Localized</h3>
-
-        <p>
-          Explore measurements at multiple locations around the ankle
-          rather than relying on a single sensing point.
-        </p>
-
-      </div>
-
-
-      <div>
-
-        <span>02</span>
-
-        <h3>Wearable</h3>
-
-        <p>
-          Develop a system that can ultimately integrate with movement
-          and rehabilitation activities.
-        </p>
-
-      </div>
-
-
-      <div>
-
-        <span>03</span>
-
-        <h3>Interpretable</h3>
-
-        <p>
-          Translate sensor measurements into information that can be
-          understood more easily than raw sensor output.
-        </p>
-
-      </div>
-
-
-      <div>
-
-        <span>04</span>
-
-        <h3>Longitudinal</h3>
-
-        <p>
-          Investigate changes across rehabilitation rather than
-          treating movement as a single isolated measurement.
-        </p>
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- DEVELOPMENT PIPELINE -->
-
-  <section class="section rd-development">
-
-    <div class="section-label">05 — DEVELOPMENT</div>
-
-    <h2>From concept to validation.</h2>
-
-    <p>
-      GaitMate is being developed iteratively. Each stage informs the
-      next generation of the system.
-    </p>
-
-
-    <div class="rd-timeline">
-
-      <div class="rd-stage complete">
-
-        <span>01</span>
-
-        <div>
-          <h3>Concept & Research</h3>
-
-          <p>
-            Define the clinical problem, initial sensing approach,
-            system architecture, and research questions.
-          </p>
-        </div>
-
-      </div>
-
-
-      <div class="rd-stage active">
-
-        <span>02</span>
-
-        <div>
-          <h3>Prototype Development</h3>
-
-          <p>
-            Translate the proposed wearable system into physical
-            hardware and software prototypes.
-          </p>
-        </div>
-
-      </div>
-
-
-      <div class="rd-stage">
-
-        <span>03</span>
-
-        <div>
-          <h3>Bench Testing</h3>
-
-          <p>
-            Characterize sensor response, repeatability, mechanical
-            behavior, and system performance under controlled
-            conditions.
-          </p>
-        </div>
-
-      </div>
-
-
-      <div class="rd-stage">
-
-        <span>04</span>
-
-        <div>
-          <h3>Wearable Integration</h3>
-
-          <p>
-            Evaluate how sensing components, adhesives, electronics,
-            and software operate together as a wearable system.
-          </p>
-        </div>
-
-      </div>
-
-
-      <div class="rd-stage">
-
-        <span>05</span>
-
-        <div>
-          <h3>Future Validation</h3>
-
-          <p>
-            Future research will be needed to determine whether the
-            system produces meaningful and reliable measurements
-            during rehabilitation.
-          </p>
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- CURRENT DEVELOPMENT -->
-
-  <section class="section">
-
-    <div class="section-label">06 — CURRENT DEVELOPMENT</div>
-
-    <h2>What we're working on now.</h2>
-
-    <p>
-      Current development focuses on moving GaitMate beyond the
-      conceptual design stage and establishing the technical
-      foundations required for a functional prototype.
-    </p>
-
-
-    <div class="card-grid">
-
-      <div class="card">
-
-        <h3>Sensor Prototyping</h3>
-
-        <p>
-          Investigating sensing approaches and physical configurations
-          for measuring mechanical changes around the ankle.
-        </p>
-
-      </div>
-
-
-      <div class="card">
-
-        <h3>Wearable Design</h3>
-
-        <p>
-          Developing the patch structure, placement strategy, and
-          integration of sensing components into a wearable format.
-        </p>
-
-      </div>
-
-
-      <div class="card">
-
-        <h3>Data Analysis</h3>
-
-        <p>
-          Developing methods for processing sensor measurements and
-          identifying useful movement features.
-        </p>
-
-      </div>
-
-
-      <div class="card">
-
-        <h3>Digital Platform</h3>
-
-        <p>
-          Designing the software interface that will eventually connect
-          sensor measurements with interpretable rehabilitation
-          feedback.
-        </p>
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- TESTING -->
-
-  <section class="section">
-
-    <div class="section-label">07 — TESTING STRATEGY</div>
-
-    <h2>How will we know it works?</h2>
-
-    <p>
-      Before investigating clinical applications, the sensing system
-      must first demonstrate reliable technical performance.
-    </p>
-
-
-    <div class="card-grid">
-
-      <div class="card">
-
-        <h3>Sensor Response</h3>
-
-        <p>
-          Characterize how sensor output changes under controlled
-          mechanical deformation.
-        </p>
-
-      </div>
-
-
-      <div class="card">
-
-        <h3>Repeatability</h3>
-
-        <p>
-          Determine whether similar mechanical conditions produce
-          consistent measurements across repeated trials.
-        </p>
-
-      </div>
-
-
-      <div class="card">
-
-        <h3>Wearability</h3>
-
-        <p>
-          Investigate practical considerations including placement,
-          movement, adhesion, comfort, and integration.
-        </p>
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- LIMITATIONS -->
-
-  <section class="rd-limitations">
-
-    <div class="section-label">08 — LIMITATIONS</div>
-
-    <h2>An early-stage research platform.</h2>
-
-    <p>
-      GaitMate is currently an early-stage research and engineering
-      project. The system has not been clinically validated and is not
-      intended for diagnosis, treatment, or medical decision-making.
-    </p>
-
-    <p>
-      Future work will require technical characterization, iterative
-      prototype development, and appropriate validation before claims
-      about clinical performance can be made.
-    </p>
-
-  </section>
-
-
-  <!-- REFERENCES -->
-
-  <section class="section">
-
-    <div class="section-label">09 — REFERENCES</div>
-
-    <h2>Research foundation.</h2>
-
-    <p>
-      The scientific literature informing GaitMate includes research
-      on lateral ankle injuries, rehabilitation, biomechanics, wearable
-      sensing, and movement monitoring.
-    </p>
-
-    <p>
-      A complete reference list will be added as the research review
-      and prototype development progress.
-    </p>
-
-  </section>
-
-
-  <!-- NEXT PAGE -->
-
-  <section class="rd-next">
-
-    <div>
-
-      <div class="section-label">EXPLORE THE SYSTEM</div>
-
-      <h2>See how GaitMate works.</h2>
-
-    </div>
-
-    <a class="button" href="technology.html">
-      Explore Technology
-    </a>
-
-  </section>
-
-</main>
-
-
-<footer>
-
-  <div class="footer-grid">
-
-    <div class="footer-brand">
-
-      <strong>GaitMate</strong>
-
-      <p>
-        Wearable technology for smarter rehabilitation.
+      <p class="lead">
+        Gait is more than the way we walk. It reflects the
+        interaction of the nervous system, muscles, joints,
+        balance, and overall physical function.
       </p>
 
+      <p>
+        GaitMate's research explores how wearable sensing
+        and digital analysis could help characterize
+        changes in movement, support rehabilitation,
+        and investigate opportunities for preventive care.
+      </p>
+
+    </section>
+
+
+    <!-- WHY GAIT MATTERS -->
+    <section class="section section-tint">
+
+      <div class="wrap">
+
+        <p class="eyebrow">THE IMPORTANCE OF GAIT</p>
+
+        <h2>Movement as a window into health.</h2>
+
+        <p>
+          Walking is a complex process requiring coordination
+          between the brain, spinal cord, peripheral nerves,
+          muscles, and musculoskeletal system.
+        </p>
+
+        <p>
+          Changes in walking speed, step length, symmetry,
+          balance, and movement variability can provide
+          information about physical function and,
+          in some settings, neurological health.
+        </p>
+
+        <p>
+          Because many of these changes emerge gradually,
+          repeated measurements may help researchers
+          understand how movement evolves over time.
+          Wearable technology offers a potential way
+          to collect movement information outside
+          traditional laboratory or clinical environments.
+        </p>
+
+        <div class="tech-grid tech-grid-three">
+
+          <article class="tech-card">
+            <span class="tech-number">01</span>
+
+            <h3>Walking Speed</h3>
+
+            <p>
+              A widely studied measure of mobility and
+              functional performance that may change
+              with disease, injury, and aging.
+            </p>
+          </article>
+
+
+          <article class="tech-card">
+            <span class="tech-number">02</span>
+
+            <h3>Gait Symmetry</h3>
+
+            <p>
+              Differences between left and right
+              movement patterns may help characterize
+              compensatory movement or impaired function.
+            </p>
+          </article>
+
+
+          <article class="tech-card">
+            <span class="tech-number">03</span>
+
+            <h3>Gait Variability</h3>
+
+            <p>
+              Changes in the consistency of steps
+              and movement patterns can be relevant
+              to balance, neurological function,
+              and mobility research.
+            </p>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- CLINICAL RESEARCH DIRECTIONS -->
+    <section class="section wrap">
+
+      <p class="eyebrow">CLINICAL RESEARCH DIRECTIONS</p>
+
+      <h2>Exploring gait across different conditions.</h2>
+
+      <p>
+        Although GaitMate began with ankle rehabilitation,
+        our long-term research interests extend to conditions
+        in which altered gait, mobility, or balance is
+        an important clinical feature.
+      </p>
+
+      <p>
+        These are proposed research directions rather than
+        validated applications of the current GaitMate system.
+      </p>
+
+
+      <div class="tech-grid">
+
+        <!-- NEURODEGENERATIVE -->
+        <article class="tech-card">
+
+          <span class="tech-number">01 — NEURODEGENERATIVE DISORDERS</span>
+
+          <h3>Parkinson's Disease</h3>
+
+          <p>
+            Parkinson's disease can affect walking speed,
+            stride length, turning, and movement initiation.
+            Some individuals experience freezing of gait,
+            in which forward movement becomes temporarily
+            difficult.
+          </p>
+
+          <p>
+            Future GaitMate research could investigate
+            how wearable movement measurements characterize
+            changes in gait over time.
+          </p>
+
+        </article>
+
+
+        <article class="tech-card">
+
+          <span class="tech-number">02 — NEUROLOGICAL DISORDERS</span>
+
+          <h3>Multiple Sclerosis</h3>
+
+          <p>
+            Multiple sclerosis can affect walking ability,
+            balance, coordination, and endurance.
+            Walking speed and other mobility measures
+            are already used in research and clinical
+            assessment of the condition.
+          </p>
+
+          <p>
+            GaitMate could explore complementary,
+            longitudinal movement monitoring,
+            building on existing approaches rather
+            than replacing established assessments.
+          </p>
+
+        </article>
+
+
+        <!-- ACQUIRED BRAIN AND SPINAL INJURY -->
+        <article class="tech-card">
+
+          <span class="tech-number">03 — ACQUIRED NEUROLOGICAL INJURY</span>
+
+          <h3>Stroke Rehabilitation</h3>
+
+          <p>
+            Stroke can lead to weakness, asymmetric
+            walking patterns, altered balance,
+            and changes in weight distribution.
+          </p>
+
+          <p>
+            Future wearable systems could investigate
+            gait symmetry, postural sway, and movement
+            progression during rehabilitation.
+          </p>
+
+        </article>
+
+
+        <article class="tech-card">
+
+          <span class="tech-number">04 — BRAIN &amp; SPINAL INJURY</span>
+
+          <h3>Traumatic Brain &amp; Spinal Cord Injury</h3>
+
+          <p>
+            Traumatic brain injury can affect balance,
+            coordination, and walking performance.
+            Spinal cord injury may impair motor control,
+            strength, sensation, and mobility.
+          </p>
+
+          <p>
+            Future research could investigate
+            condition-appropriate wearable measurements
+            to support movement assessment and
+            rehabilitation tracking.
+          </p>
+
+        </article>
+
+
+        <!-- NEUROMUSCULAR -->
+        <article class="tech-card">
+
+          <span class="tech-number">05 — NEUROMUSCULAR CONDITIONS</span>
+
+          <h3>Cerebral Palsy</h3>
+
+          <p>
+            Cerebral palsy can affect muscle tone,
+            posture, coordination, and gait.
+            Walking patterns vary considerably
+            between individuals.
+          </p>
+
+          <p>
+            Wearable monitoring could be investigated
+            as a complementary method for studying
+            functional movement outside structured
+            assessments.
+          </p>
+
+        </article>
+
+
+        <article class="tech-card">
+
+          <span class="tech-number">06 — NEUROMUSCULAR CONDITIONS</span>
+
+          <h3>Duchenne Muscular Dystrophy</h3>
+
+          <p>
+            Duchenne muscular dystrophy causes progressive
+            muscle weakness and may produce characteristic
+            compensatory walking patterns, including
+            a waddling gait.
+          </p>
+
+          <p>
+            Future research could explore how
+            noninvasive movement measurements
+            relate to changes in mobility and
+            functional performance.
+          </p>
+
+        </article>
+
+
+        <!-- AGING -->
+        <article class="tech-card">
+
+          <span class="tech-number">07 — HEALTHY AGING</span>
+
+          <h3>Fall-Risk Assessment</h3>
+
+          <p>
+            Changes in walking speed, balance,
+            step variability, and mobility may
+            contribute to fall-risk assessment
+            in older adults.
+          </p>
+
+          <p>
+            GaitMate's long-term vision is to
+            investigate whether combinations
+            of wearable movement features could
+            help identify elevated fall risk
+            before a fall occurs.
+          </p>
+
+        </article>
+
+
+        <article class="tech-card">
+
+          <span class="tech-number">08 — MUSCULOSKELETAL REHABILITATION</span>
+
+          <h3>Injury Recovery</h3>
+
+          <p>
+            Musculoskeletal injuries can produce
+            pain-related compensation, altered
+            loading, and asymmetrical movement.
+          </p>
+
+          <p>
+            GaitMate's initial ankle rehabilitation
+            research provides a starting point
+            for investigating future applications
+            across other joints and injuries.
+          </p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- INITIAL CONCEPT -->
+    <section class="section section-tint">
+
+      <div class="wrap">
+
+        <p class="eyebrow">INITIAL RESEARCH</p>
+
+        <h2>Where GaitMate began: lateral ankle sprains.</h2>
+
+        <p>
+          GaitMate originated as a wearable biosensing
+          concept focused on lateral ankle sprain
+          rehabilitation.
+        </p>
+
+        <p>
+          Lateral ankle sprains commonly involve
+          the anterior talofibular ligament (ATFL),
+          with the calcaneofibular ligament (CFL)
+          and posterior talofibular ligament (PTFL)
+          also relevant to lateral ankle anatomy
+          and more extensive injuries.
+        </p>
+
+        <p>
+          Our initial research investigated how
+          localized wearable measurements might
+          help characterize mechanical changes
+          around these ligament regions during
+          movement and rehabilitation.
+        </p>
+
+        <p>
+          The proposed nine-sensor architecture
+          uses three sensing locations associated
+          with each ligament region. This is a
+          conceptual placement strategy, not yet
+          a validated method for directly measuring
+          ligament strain.
+        </p>
+
+        <div class="tech-grid tech-grid-three">
+
+          <article class="tech-card">
+            <span class="tech-number">ATFL</span>
+            <h3>Anterior Talofibular Ligament</h3>
+            <p>
+              Frequently involved in lateral ankle
+              sprains and a major focus of the
+              initial rehabilitation concept.
+            </p>
+          </article>
+
+          <article class="tech-card">
+            <span class="tech-number">CFL</span>
+            <h3>Calcaneofibular Ligament</h3>
+            <p>
+              Contributes to lateral ankle stability
+              and is included in the proposed
+              sensing-region design.
+            </p>
+          </article>
+
+          <article class="tech-card">
+            <span class="tech-number">PTFL</span>
+            <h3>Posterior Talofibular Ligament</h3>
+            <p>
+              Part of the lateral ligament complex
+              and included in the initial
+              multi-region sensing concept.
+            </p>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- CURRENT DEVELOPMENT -->
+    <section class="section wrap">
+
+      <p class="eyebrow">CURRENT DEVELOPMENT</p>
+
+      <h2>Translating research into a working prototype.</h2>
+
+      <p>
+        GaitMate is currently progressing through
+        early hardware and software development.
+        Our work focuses on evaluating candidate
+        sensors, refining wearable architecture,
+        and developing tools to process and
+        visualize movement-related data.
+      </p>
+
+
+      <div class="tech-grid tech-grid-three">
+
+        <article class="tech-card">
+          <span class="tech-number">01</span>
+          <h3>Sensor Exploration</h3>
+          <p>
+            Comparing stretch, strain, inertial,
+            and muscle-activity sensing modalities
+            for potential use in wearable
+            movement monitoring.
+          </p>
+        </article>
+
+        <article class="tech-card">
+          <span class="tech-number">02</span>
+          <h3>Hardware Prototyping</h3>
+          <p>
+            Building early electronic prototypes
+            and evaluating sensor response
+            to movement and orientation.
+          </p>
+        </article>
+
+        <article class="tech-card">
+          <span class="tech-number">03</span>
+          <h3>Wearable Integration</h3>
+          <p>
+            Investigating sticker construction,
+            adhesive materials, sensor placement,
+            and integration of electronics
+            into a compact wearable format.
+          </p>
+        </article>
+
+        <article class="tech-card">
+          <span class="tech-number">04</span>
+          <h3>Software Development</h3>
+          <p>
+            Developing the application interface,
+            data visualization, movement-event
+            detection, and rehabilitation
+            feedback concepts.
+          </p>
+        </article>
+
+        <article class="tech-card">
+          <span class="tech-number">05</span>
+          <h3>Bench Testing</h3>
+          <p>
+            Planning controlled tests of sensor
+            response, repeatability, noise,
+            stability, and mechanical performance.
+          </p>
+        </article>
+
+        <article class="tech-card">
+          <span class="tech-number">06</span>
+          <h3>Future Validation</h3>
+          <p>
+            Designing future studies to assess
+            wearable measurement accuracy,
+            movement characterization, and
+            condition-specific applications.
+          </p>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- RESEARCH ROADMAP -->
+    <section class="section section-tint">
+
+      <div class="wrap">
+
+        <p class="eyebrow">RESEARCH ROADMAP</p>
+
+        <h2>Our next questions.</h2>
+
+        <div class="rd-roadmap">
+
+          <article class="rd-roadmap-item">
+            <span>01</span>
+            <div>
+              <h3>Can we reliably capture movement?</h3>
+              <p>
+                Characterize sensor response, repeatability,
+                placement sensitivity, and signal quality
+                during controlled activities.
+              </p>
+            </div>
+          </article>
+
+          <article class="rd-roadmap-item">
+            <span>02</span>
+            <div>
+              <h3>Which measurements are meaningful?</h3>
+              <p>
+                Investigate which features, including
+                asymmetry and movement variability,
+                are informative for specific
+                rehabilitation research questions.
+              </p>
+            </div>
+          </article>
+
+          <article class="rd-roadmap-item">
+            <span>03</span>
+            <div>
+              <h3>Can we monitor changes over time?</h3>
+              <p>
+                Explore longitudinal measurements
+                and how movement patterns vary
+                throughout recovery.
+              </p>
+            </div>
+          </article>
+
+          <article class="rd-roadmap-item">
+            <span>04</span>
+            <div>
+              <h3>Can we identify emerging mobility risks?</h3>
+              <p>
+                Investigate whether validated combinations
+                of gait features could contribute to
+                future predictive models for instability
+                and fall risk.
+              </p>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- LIMITATIONS -->
+    <section class="section wrap">
+
+      <p class="eyebrow">RESEARCH STATUS</p>
+
+      <h2>An evolving research platform.</h2>
+
+      <p>
+        GaitMate is an early-stage research and engineering
+        project. The wearable system, software features,
+        and expanded clinical applications are in different
+        stages of conceptual design and prototype development.
+      </p>
+
+      <p>
+        The platform has not been clinically validated
+        for diagnosis, treatment decisions, fall-risk
+        prediction, or disease-specific monitoring.
+        Future research will require technical
+        characterization and appropriate clinical studies.
+      </p>
+
+    </section>
+
+
+    <!-- REFERENCES -->
+    <section class="section section-tint">
+
+      <div class="wrap">
+
+        <p class="eyebrow">SCIENTIFIC FOUNDATION</p>
+
+        <h2>Research &amp; references.</h2>
+
+        <p>
+          GaitMate's research direction draws on
+          literature in gait biomechanics, lateral
+          ankle injury rehabilitation, wearable
+          sensing, neurological movement disorders,
+          and fall-risk assessment.
+        </p>
+
+        <p>
+          We are developing a curated bibliography
+          to document the evidence informing
+          our sensing architecture, analysis
+          methods, and future research questions.
+        </p>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+
+    <div class="wrap footer-grid">
+
+      <div>
+        <a class="brand" href="index.html">Gait<span>Mate</span></a>
+        <p>
+          Developing wearable biosensing technology and
+          real-time feedback tools for smarter injury recovery.
+        </p>
+      </div>
+
+      <div>
+        <h3>Explore</h3>
+        <a href="technology.html">Technology</a>
+        <a href="research-development.html">Research &amp; Development</a>
+        <a href="outreach.html">Outreach</a>
+        <a href="team.html">Team</a>
+      </div>
+
+      <div>
+        <h3>Contact</h3>
+        <a href="mailto:aditibhat017@gmail.com">
+          aditibhat017@gmail.com
+        </a>
+        <a
+          href="https://www.linkedin.com/company/gaitmate"
+          target="_blank"
+          rel="noopener noreferrer">
+          GaitMate on LinkedIn ↗
+        </a>
+        <a href="contact.html">Project inquiries</a>
+      </div>
+
     </div>
 
-
-    <div>
-
-      <h4>Explore</h4>
-
-      <a href="technology.html">Technology</a>
-      <a href="impact.html">Impact</a>
-      <a href="research-development.html">Research & Development</a>
-      <a href="outreach.html">Outreach</a>
-      <a href="team.html">Team</a>
-
+    <div class="wrap copyright">
+      © 2026 GaitMate · Research and development project
     </div>
 
-
-    <div>
-
-      <h4>Contact</h4>
-
-      <a href="mailto:aditibhat017@gmail.com">
-        Email
-      </a>
-
-      <a
-        href="https://www.linkedin.com/company/gaitmate"
-        target="_blank"
-        rel="noopener noreferrer">
-        LinkedIn
-      </a>
-
-      <a href="contact.html">
-        Project Inquiries
-      </a>
-
-    </div>
-
-  </div>
-
-
-  <div class="footer-bottom">
-    © 2026 GaitMate
-  </div>
-
-</footer>
+  </footer>
 
 </body>
 </html>
