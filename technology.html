@@ -1,176 +1,529 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore GaitMate's wearable sensor hardware and rehabilitation software.">
+
   <title>Technology | GaitMate</title>
 
   <link rel="stylesheet" href="style.css">
 </head>
 
-<nav>
-  <a class="logo" href="index.html">GaitMate</a>
+<body>
 
-<div class="nav-links">
-  <a href="index.html">Home</a>
-  <a href="technology.html">Technology</a>
-  <a href="impact.html">Impact</a>
-  <a href="research-development.html">R&D</a>
-  <a href="outreach.html">Outreach</a>
-  <a href="team.html">Team</a>
-  <a href="contact.html">Contact</a>
-</div>
-  
-</nav>
+  <!-- NAVIGATION -->
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Main navigation">
 
+      <a class="brand" href="index.html">Gait<span>Mate</span></a>
 
-<main class="page">
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="technology.html" aria-current="page">Technology</a>
+        <a href="research-development.html">R&D</a>
+        <a href="outreach.html">Outreach</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Contact</a>
+      </div>
 
-  <header class="page-header">
-    <h1>Technology</h1>
-
-    <p>
-      GaitMate combines wearable sensing, localized movement
-      measurements, and digital feedback to explore a new approach
-      to ankle sprain rehabilitation.
-    </p>
+    </nav>
   </header>
 
 
-  <section class="section">
+  <main>
 
-    <h2>How GaitMate Works</h2>
+    <!-- PAGE INTRO -->
+    <section class="page-intro wrap">
 
-    <div class="card-grid">
+      <p class="eyebrow">TECHNOLOGY</p>
 
-      <div class="card">
-        <h3>01 — Sense</h3>
-        <p>
-          Wearable sensor patches collect localized mechanical
-          measurements from key regions around the ankle.
-        </p>
-      </div>
+      <h1>Connecting wearable sensing with real-time feedback.</h1>
 
-      <div class="card">
-        <h3>02 — Analyze</h3>
-        <p>
-          Sensor measurements are processed to characterize movement
-          patterns and changes during rehabilitation.
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>03 — Understand</h3>
-        <p>
-          Data is translated into accessible feedback for patients
-          and longitudinal information for clinicians.
-        </p>
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <section class="section">
-
-    <h2>Wearable Sensor System</h2>
-
-    <p>
-      GaitMate's proposed wearable system uses a network of sensor
-      patches positioned around the ankle to capture localized
-      mechanical changes during movement.
-    </p>
-
-  </section>
-
-
-  <section class="section">
-
-    <h2>Patch Architecture</h2>
-
-    <p>
-      Each patch is being designed as a layered wearable consisting
-      of a skin-safe adhesive layer, sensing component, and protective
-      outer layer.
-    </p>
-
-  </section>
-
-
-  <section class="section">
-
-    <h2>Digital Platform</h2>
-
-    <p>
-      The proposed GaitMate digital platform is designed to transform
-      sensor measurements into understandable rehabilitation feedback
-      while allowing clinicians to examine changes over time.
-    </p>
-
-  </section>
-
-</main>
-
-
-<footer>
-
-  <div class="footer-grid">
-
-    <!-- BRAND -->
-    <div class="footer-brand">
-
-      <strong>GaitMate</strong>
-
-      <p>
-        Wearable biosensing for smarter rehabilitation.
+      <p class="lead">
+        GaitMate combines a wearable biosensing sticker concept
+        with a digital rehabilitation platform to investigate
+        how movement and biomechanical measurements can support
+        more personalized injury recovery.
       </p>
 
-    </div>
+      <p>
+        Our hardware and software are being developed iteratively,
+        beginning with localized ankle monitoring and expanding
+        toward broader gait analysis applications.
+      </p>
+
+    </section>
 
 
-    <!-- SITE LINKS -->
-    <div>
+    <!-- HARDWARE -->
+    <section class="section section-tint">
 
-      <h4>Explore</h4>
+      <div class="wrap">
 
-      <a href="technology.html">Technology</a>
-      <a href="impact.html">Impact</a>
-      <a href="research-development.html">Research & Development</a>
-      <a href="outreach.html">Outreach</a>
-      <a href="team.html">Team</a>
+        <p class="eyebrow">HARDWARE</p>
 
-    </div>
+        <h2>Designing a wearable sensing system.</h2>
+
+        <p>
+          GaitMate's hardware is currently under development.
+          Our initial design investigates multiple sensing locations
+          around the lateral ankle to capture localized biomechanical
+          changes during movement.
+        </p>
+
+        <p>
+          We are exploring several sensor technologies, including
+          piezoresistive strain sensors, capacitive stretch sensors,
+          inertial measurement units (IMUs), and electromyography
+          (EMG). Each modality offers different information about
+          deformation, motion, or muscle activity.
+        </p>
 
 
-    <!-- CONTACT -->
-    <div>
+        <!-- SENSOR TYPES -->
+        <div class="tech-grid">
 
-      <h4>Contact</h4>
+          <article class="tech-card">
+            <span class="tech-number">01</span>
 
-      <a href="mailto:aditibhat017@gmail.com">
-        Email
-      </a>
+            <h3>Piezoresistive Strain Sensors</h3>
+
+            <p>
+              Measure changes in electrical resistance caused by
+              mechanical deformation. These sensors may provide
+              a flexible approach to localized stretch monitoring.
+            </p>
+          </article>
+
+
+          <article class="tech-card">
+            <span class="tech-number">02</span>
+
+            <h3>Capacitive Stretch Sensors</h3>
+
+            <p>
+              Measure deformation through changes in capacitance.
+              Their flexible structure makes them a potential
+              candidate for wearable movement sensing.
+            </p>
+          </article>
+
+
+          <article class="tech-card">
+            <span class="tech-number">03</span>
+
+            <h3>Inertial Measurement Units</h3>
+
+            <p>
+              Combine accelerometer and gyroscope measurements,
+              sometimes with magnetometers, to characterize
+              movement, acceleration, and orientation.
+            </p>
+          </article>
+
+
+          <article class="tech-card">
+            <span class="tech-number">04</span>
+
+            <h3>Electromyography (EMG)</h3>
+
+            <p>
+              Measures electrical activity associated with
+              muscle activation. EMG may provide complementary
+              information about neuromuscular function.
+            </p>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- WEARABLE STICKER -->
+    <section class="section wrap">
+
+      <p class="eyebrow">WEARABLE BIOSENSING STICKER</p>
+
+      <h2>A compact, three-layer design.</h2>
+
+      <p>
+        Our proposed wearable sticker is designed around a
+        hydrocolloid-patch-sized format, with three functional
+        layers intended to support sensing during rehabilitation.
+      </p>
+
+
+      <div class="tech-grid tech-grid-three">
+
+        <article class="tech-card">
+          <span class="tech-number">TOP LAYER</span>
+
+          <h3>Protective Exterior</h3>
+
+          <p>
+            A waterproof covering intended to protect the
+            sensing components from environmental exposure
+            during everyday use.
+          </p>
+        </article>
+
+
+        <article class="tech-card">
+          <span class="tech-number">MIDDLE LAYER</span>
+
+          <h3>Sensing Mechanism</h3>
+
+          <p>
+            Contains the selected sensor technology and
+            associated connections used to capture movement
+            or localized biomechanical measurements.
+          </p>
+        </article>
+
+
+        <article class="tech-card">
+          <span class="tech-number">BOTTOM LAYER</span>
+
+          <h3>Skin-Safe Adhesive</h3>
+
+          <p>
+            An adhesive interface intended to maintain
+            sensor placement while accommodating movement
+            and minimizing skin irritation.
+          </p>
+        </article>
+
+      </div>
+
+      <figure class="diagram tech-diagram">
+
+        <img
+          src="sensor-diagram.svg"
+          alt="Conceptual diagram of the three-layer GaitMate wearable sensor sticker">
+
+        <figcaption>
+          Proposed sticker architecture. Materials and dimensions
+          remain subject to prototyping and testing.
+        </figcaption>
+
+      </figure>
+
+    </section>
+
+
+    <!-- NINE SENSOR SYSTEM -->
+    <section class="section section-tint">
+
+      <div class="wrap">
+
+        <p class="eyebrow">INITIAL SENSOR CONFIGURATION</p>
+
+        <h2>Nine sensing locations around the lateral ankle.</h2>
+
+        <p>
+          Our initial ankle rehabilitation concept proposes
+          nine sensing locations, organized into three groups
+          associated with the major lateral ankle ligament regions.
+        </p>
+
+        <p>
+          Three sensors are proposed near each ligament region
+          to investigate how measurements vary spatially during
+          movement. The configuration is a research design,
+          and the ability to infer ligament strain from
+          skin-mounted sensors has not yet been established.
+        </p>
+
+
+        <div class="tech-grid tech-grid-three">
+
+          <article class="tech-card">
+            <span class="tech-number">03 SENSORS</span>
+
+            <h3>ATFL Region</h3>
+
+            <p>
+              Anterior talofibular ligament region.
+              An important focus in lateral ankle
+              sprain research.
+            </p>
+          </article>
+
+
+          <article class="tech-card">
+            <span class="tech-number">03 SENSORS</span>
+
+            <h3>CFL Region</h3>
+
+            <p>
+              Calcaneofibular ligament region.
+              Included to investigate localized
+              mechanical behavior around the
+              lateral ankle.
+            </p>
+          </article>
+
+
+          <article class="tech-card">
+            <span class="tech-number">03 SENSORS</span>
+
+            <h3>PTFL Region</h3>
+
+            <p>
+              Posterior talofibular ligament region.
+              Included in the proposed multi-location
+              sensing architecture.
+            </p>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- SOFTWARE -->
+    <section class="section wrap">
+
+      <p class="eyebrow">SOFTWARE</p>
+
+      <h2>Turning sensor measurements into useful feedback.</h2>
+
+      <p>
+        GaitMate's initial app design was scaffolded during
+        the UCSF QBI Hackathon. The prototype explores
+        how movement and rehabilitation information could
+        be displayed through an accessible digital interface.
+      </p>
+
+      <p>
+        Our software development roadmap includes real-time
+        strain visualization, movement-event detection,
+        rehabilitation progress tracking, and personalized
+        exercise guidance.
+      </p>
+
+
+      <div class="tech-grid tech-grid-three">
+
+        <article class="tech-card">
+          <span class="tech-number">01</span>
+
+          <h3>Color-Coded Strain Scale</h3>
+
+          <p>
+            A proposed three-level visualization communicates
+            relative strain or loading categories:
+          </p>
+
+          <div class="strain-scale">
+            <div class="strain-low">Green — Low</div>
+            <div class="strain-medium">Yellow — Moderate</div>
+            <div class="strain-high">Red — High</div>
+          </div>
+
+          <p>
+            Thresholds in the early demo are informed by
+            literature-based assumptions about ankle
+            ligament strain and loading. They require
+            experimental calibration and validation before
+            being interpreted as patient-specific risk.
+          </p>
+        </article>
+
+
+        <article class="tech-card">
+          <span class="tech-number">02</span>
+
+          <h3>Fall Detection</h3>
+
+          <p>
+            Planned movement-event detection aims to identify
+            patterns consistent with falls or instability
+            and support timely feedback.
+          </p>
+
+          <p>
+            Longer-term research will investigate whether
+            changes in gait, balance, and movement variability
+            could contribute to estimating fall risk
+            before an event occurs.
+          </p>
+        </article>
+
+
+        <article class="tech-card">
+          <span class="tech-number">03</span>
+
+          <h3>Physical Therapy Exercises</h3>
+
+          <p>
+            A proposed exercise-guidance feature would
+            organize rehabilitation activities using
+            recovery stage, injury history, and
+            movement measurements.
+          </p>
+
+          <p>
+            Future versions would require clinician-reviewed
+            exercise protocols and validation before providing
+            individualized therapeutic recommendations.
+          </p>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- DATA -->
+    <section class="section section-tint">
+
+      <div class="wrap">
+
+        <p class="eyebrow">DATA & ANALYTICS</p>
+
+        <h2>From raw signals to movement insights.</h2>
+
+        <p>
+          Our planned analysis pipeline connects wearable
+          measurements with interpretable indicators of
+          movement and recovery.
+        </p>
+
+
+        <div class="tech-grid tech-grid-three">
+
+          <article class="tech-card">
+            <span class="tech-number">01 — CAPTURE</span>
+
+            <h3>Sensor Signals</h3>
+
+            <p>
+              Record movement-related signals such as
+              localized deformation, acceleration,
+              orientation, or muscle activity,
+              depending on the selected sensors.
+            </p>
+          </article>
+
+
+          <article class="tech-card">
+            <span class="tech-number">02 — ANALYZE</span>
+
+            <h3>Movement Features</h3>
+
+            <p>
+              Explore signal changes, asymmetry,
+              variability, and movement patterns
+              across activities and time.
+            </p>
+          </article>
+
+
+          <article class="tech-card">
+            <span class="tech-number">03 — DISPLAY</span>
+
+            <h3>Digital Feedback</h3>
+
+            <p>
+              Present movement information through
+              visual summaries, progress trends,
+              and proposed feedback categories
+              for patients and clinicians.
+            </p>
+          </article>
+
+        </div>
+
+        <p class="tech-note">
+          The current demo uses prototype or illustrative data.
+          Hardware integration, clinical interpretation, and
+          real-time performance are ongoing development goals.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- DEMO -->
+    <section class="section wrap">
+
+      <p class="eyebrow">APPLICATION PROTOTYPE</p>
+
+      <h2>Explore the initial software demo.</h2>
+
+      <p>
+        The GaitMate Hackathon repository documents our early
+        application work. It serves as a foundation for
+        continued development of the digital platform.
+      </p>
 
       <a
-        href="https://www.linkedin.com/company/gaitmate"
+        class="button"
+        href="https://github.com/ribh76/GaitMate"
         target="_blank"
         rel="noopener noreferrer">
-        LinkedIn
+        View Demo Repository ↗
       </a>
 
-      <a href="contact.html">
-        Project Inquiries
-      </a>
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+
+    <div class="wrap footer-grid">
+
+      <div>
+        <a class="brand" href="index.html">Gait<span>Mate</span></a>
+
+        <p>
+          Developing wearable biosensing technology and
+          real-time feedback tools for smarter injury recovery.
+        </p>
+      </div>
+
+      <div>
+        <h3>Explore</h3>
+
+        <a href="technology.html">Technology</a>
+        <a href="research-development.html">Research &amp; Development</a>
+        <a href="outreach.html">Outreach</a>
+        <a href="team.html">Team</a>
+      </div>
+
+      <div>
+        <h3>Contact</h3>
+
+        <a href="mailto:aditibhat017@gmail.com">
+          aditibhat017@gmail.com
+        </a>
+
+        <a
+          href="https://www.linkedin.com/company/gaitmate"
+          target="_blank"
+          rel="noopener noreferrer">
+          GaitMate on LinkedIn ↗
+        </a>
+
+        <a href="contact.html">Project inquiries</a>
+      </div>
 
     </div>
 
-  </div>
+    <div class="wrap copyright">
+      © 2026 GaitMate · Research and development project
+    </div>
 
+  </footer>
 
-  <div class="footer-bottom">
-    © 2026 GaitMate
-  </div>
-
-</footer>
+</body>
+</html>
